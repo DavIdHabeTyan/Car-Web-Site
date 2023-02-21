@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 2px;
+    min-width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    font-weight: 500;
+    background-color: #FE2008;
+    padding: 0px 15px;
+    transition: background-color .2s ease;
+}
+
+.btn:hover {
+    background-color: #cc1a07;
+}
+
+/*Header start*/
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.header__wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block {
+    width: 20%;
+}
+
+.header__logo {
+display: inline-block;
+}
+.header__logo img {
+    height: 65px;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.nav__link {
+    margin-right: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+
+.nav__link:after {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+}
+
+.header__lng {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__lng-link {
+    margin-right: 8px;
+    color: #b7b7b7;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.header__lng-link:last-child {
+    margin-right: 0;
+}
+
+.header__lng-link:hover {
+    color: white;
+}
+
+.header__lng-link.active {
+    color: white;
+}
+
+/*Header end*/
+
+/*Intro start*/
+
+.intro {
+    background: url('../assest/intro.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.intro:after{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0.2;
+    content: '';
+}
+
+.intro__content {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.intro__block {
+
+}
+
+.intro__title {
+    max-width: 790px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    line-height: 150%;
+}
+
+/*Intro end*/
