@@ -15,8 +15,8 @@ const Section = () => {
                 <a href="src/components/section/section#" className="block__link">
                     VIEW ALL SERVICES
                 </a>
-                <div className={'wrapper'} >
-                {servicesData.map(elem => <Services  key={Math.random()} {...elem}/>)}
+                <div className={'wrapper'}>
+                    {servicesData.map(elem => <Services key={Math.random()} {...elem}/>)}
                 </div>
             </div>
         </div>

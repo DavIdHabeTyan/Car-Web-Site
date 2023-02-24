@@ -3,6 +3,8 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import Info from "./components/info/info";
 import Section from "./components/section/section";
+import AboutSection from "./components/aboutSection";
+import SectionAbout from "./components/sectionAbout";
 
 function App() {
     return (
@@ -11,7 +13,10 @@ function App() {
             <Intro/>
             <Info/>
             <Section/>
+            <AboutSection/>
+            <SectionAbout/>
 
+            <div style={{height: '40vh'}}></div>
         </div>
     );
 }

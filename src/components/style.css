@@ -117,6 +117,7 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     transition: color .2s ease;
+    text-transform: uppercase;
 }
 
 .header__lng-link:last-child {
@@ -169,6 +170,7 @@ p {
     font-weight: 700;
     color: white;
     line-height: 150%;
+    text-transform: uppercase;
 }
 
 /*Intro end*/
@@ -177,6 +179,10 @@ p {
 
 .section {
     margin-bottom: 100px;
+}
+
+.section.process{
+    padding-top: 50px;
 }
 
 /*End Section*/
@@ -210,6 +216,7 @@ p {
 .info__text {
     font-size: 18px;
     color: #b7b7b7;
+    text-transform: uppercase;
 }
 
 /*End INFO*/
@@ -221,11 +228,16 @@ p {
     letter-spacing: 0.10em;
 }
 
+.block__title.text-white {
+    color: #fff;
+}
+
 .block__link {
     margin-bottom: 60px;
     display: inline-block;
     color: black;
     letter-spacing: 0.10em;
+    text-transform: uppercase;
 }
 
 .block__link:hover {
@@ -254,11 +266,11 @@ p {
 /*    opacity: 1;*/
 /*}*/
 
-.services__item:hover .services__content-item{
+.services__item:hover .services__content-item {
     opacity: 1;
 }
 
-.services__item:hover .services__content:after{
+.services__item:hover .services__content:after {
     opacity: 0.7;
 }
 
@@ -282,7 +294,7 @@ p {
     transition: opacity .2s ease;
 }
 
-.services__content-item{
+.services__content-item {
     position: absolute;
     top: 0;
     left: 0;
@@ -315,6 +327,7 @@ p {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 0.23em;
+    text-transform: uppercase;
 }
 
 .services__text {
@@ -327,6 +340,80 @@ p {
     font-weight: 600;
     color: white;
     letter-spacing: 0.10em;
+    text-transform: uppercase;
 }
 
 /*services End*/
+
+/*aboutSection Start*/
+.about {
+    padding: 115px 0;
+    background-color: #171616;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__block {
+    max-width: 505px;
+
+}
+
+.about__text {
+    margin: 35px 0 40px;
+    font-weight: 600;
+    color: #b7b7b7;
+    letter-spacing: 0.20em;
+}
+
+.about__link {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.about__link:hover {
+    text-decoration: none;
+}
+
+.about__img {
+    height: 340px;
+}
+
+/*aboutSection End*/
+
+/*sectionAbout Start*/
+
+.process__title {
+    margin-bottom: 50px;
+    line-height: 1;
+    font-size: 148px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.process__subTitle {
+    margin-bottom: 90px;
+    font-size: 40px;
+    font-weight: 600;
+     text-transform: uppercase;
+    letter-spacing: 0.13em;
+    text-align: center;
+}
+
+.process__item{
+    padding: 30px 30px 15px;
+    height: 100%;
+    min-height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+/*sectionAbout End*/

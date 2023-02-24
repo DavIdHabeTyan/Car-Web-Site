@@ -7,9 +7,9 @@ const InfoImages = ({img, text, title}) => {
             <div className="info__item">
                 <div className="info__img">
                     <img src={img} alt="call"/>
-                    <h3 className="info__title">
+                    <h4 className="info__title">
                         {title}
-                    </h3>
+                    </h4>
                     <p className="info__text">
                         {text}
                     </p>
