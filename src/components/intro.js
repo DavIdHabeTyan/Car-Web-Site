@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 
-const Section = () => {
+const Intro = () => {
     return (
         <div className={'intro'}>
             <div className="container">
@@ -20,4 +20,4 @@ const Section = () => {
     );
 };
 
-export default Section;
+export default Intro;
