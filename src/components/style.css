@@ -37,6 +37,9 @@ p {
     background-color: #FE2008;
     padding: 0px 15px;
     transition: background-color .2s ease;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
 }
 
 .btn:hover {
@@ -181,7 +184,7 @@ p {
     margin-bottom: 100px;
 }
 
-.section.process{
+.section.process {
     padding-top: 50px;
 }
 
@@ -211,6 +214,7 @@ p {
     margin-bottom: 10px;
     font-size: 18px;
     letter-spacing: 0.10em;
+    text-transform: uppercase;
 }
 
 .info__text {
@@ -252,6 +256,10 @@ p {
 .block {
     width: 33.33%;
     padding: 0 10px;
+}
+
+.text-upper{
+    text-transform: uppercase;
 }
 
 /*block end Section*/
@@ -403,12 +411,12 @@ p {
     margin-bottom: 90px;
     font-size: 40px;
     font-weight: 600;
-     text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 0.13em;
     text-align: center;
 }
 
-.process__item{
+.process__item {
     padding: 30px 30px 15px;
     height: 100%;
     min-height: 150px;
@@ -417,3 +425,122 @@ p {
 }
 
 /*sectionAbout End*/
+
+/*Contacts Start */
+.contacts {
+    padding: 100px 0;
+    background-color: #171616;
+}
+
+.contacts .block__title{
+margin-bottom: 40px;
+}
+
+.contacts__form {
+    max-width: 440px;
+}
+
+.form__row {
+    margin: 0 -20px;
+    display: flex;
+
+}
+
+.form__group {
+    margin-bottom: 30px;
+    padding: 0 20px;
+    flex: 1;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ffff;
+    background-color: transparent;
+}
+
+.input:focus + .label {
+    color: #b7b7b7;
+    transform: translateY(-10px);
+    font-size: 12px;
+}
+.input:not(:placeholder-shown) + .label{
+    transform: translateY(-10px);
+    font-size: 12px;
+}
+
+.label {
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    pointer-events: none;
+    transition: all .2s ease;
+}
+
+.textArea{
+    min-height: 130px;
+    width: 100%;
+    padding: 10px 0;
+    resize: vertical;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ffff;
+    background-color: transparent;
+}
+
+.textArea:focus + .label {
+    color: #b7b7b7;
+    transform: translateY(-10px);
+    font-size: 12px;
+}
+.textArea:not(:placeholder-shown) + .label{
+    transform: translateY(-10px);
+    font-size: 12px;
+}
+
+/*Contacts End */
+/*Footer start*/
+
+.footer {
+
+}
+
+.footer__wrapper{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright{
+    letter-spacing: 0.15em;
+}
+
+.footer__soc{
+display: flex;
+}
+
+.footer__soc-link{
+margin-right: 20px;
+text-decoration: none;
+}
+
+.footer__soc-link:last-child{
+    margin-right: 0;
+}
+
+.footer__soc-link img{
+height: 25px;
+}
+/*Footer end*/

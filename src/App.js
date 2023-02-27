@@ -5,6 +5,8 @@ import Info from "./components/info/info";
 import Section from "./components/section/section";
 import AboutSection from "./components/aboutSection";
 import SectionAbout from "./components/sectionAbout";
+import Contacts from "./components/contacts";
+import Footer from "./components/footer";
 
 function App() {
     return (
@@ -15,8 +17,8 @@ function App() {
             <Section/>
             <AboutSection/>
             <SectionAbout/>
-
-            <div style={{height: '40vh'}}></div>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
