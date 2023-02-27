@@ -1,4 +1,5 @@
 import './App.css';
+import './media.css';
 import Header from "./components/header";
 import Intro from "./components/intro";
 import Info from "./components/info/info";
