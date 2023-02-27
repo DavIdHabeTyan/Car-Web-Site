@@ -12,13 +12,13 @@ const Footer = () => {
                         © 2021 Auto theme by Frontend Tricks
                     </p>
                     <div className="footer__soc">
-                        <a href="" className="footer__soc-link">
+                        <a href="https://www.linkedin.com/feed/" className="footer__soc-link" target={"_blank"}>
                             <img src={linkDin} alt=""/>
                         </a>
-                        <a href="" className="footer__soc-link">
+                        <a href="https://www.facebook.com/" className="footer__soc-link" target={"_blank"}>
                             <img src={facebook} alt=""/>
                         </a>
-                        <a href="" className="footer__soc-link">
+                        <a href="https://www.instagram.com/" className="footer__soc-link" target={"_blank"}>
                             <img src={instagram} alt=""/>
                         </a>
                     </div>
